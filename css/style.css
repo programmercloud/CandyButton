@@ -1,0 +1,53 @@
+/*==========================================================
+
+ SUBSCRIBE TO https://youtube.com/c/programmercloud/
+ FOR AMAZING WEB DEVELOPMENT TUTORIALS 
+
+ ==========================================================*/
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-candy {
+  position: relative;
+  text-decoration: none;
+  padding: 12px 36px;
+  background: radial-gradient(95% 60% at 50% 75%, #005fd6 0%, #209bff 100%);
+  border: 1px solid #54a1fd;
+  box-shadow: 0px 4px 48px -12px #1187ff, inset 0px 1px 8px -4px #ffffff;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.btn-candy:after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  top: 1px;
+  right: 10%;
+}
+.btn-candy:active {
+  transform: scale(0.98) rotate(1deg);
+}
